@@ -9,11 +9,11 @@
 * Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
 
 
-###Instructions
+### Instructions
 
 To view the feedreader website you can download all the files. You can then open indext.html in your browser.
 
-###Tests
+### Tests
 
 RSS Feeds:
 
@@ -23,13 +23,13 @@ RSS Feeds:
 
 * Feed names are not empty
 
-###The Menu
+### The Menu
 
 * The menu is hidden by default
 
 * When clicked the menu changes visibility
 
-###Initial Entries 
+### Initial Entries 
 
 * Feed container has at least 1 entry
 
