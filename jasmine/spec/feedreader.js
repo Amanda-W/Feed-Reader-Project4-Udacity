@@ -95,11 +95,10 @@ $(function() {
     /* TODO: Write a new test suite named "Initial Entries" */
           describe('Initial Entries', function(){
             beforeEach(function(done){
-                loadFeed(1,done);
+                loadFeed(0,done);
             })
             it('has entries in feed container', function(){
-                let feedContainer = document.querySelector('div.feed');
-                let entries = feedContainer.querySelectorAll('article.feed');
+                let feedContainer = document.querySelector('.feed .entry');
                 expect(feedContainer.children.length).toBeGreaterThan(0);
             })
           })
@@ -118,7 +117,7 @@ $(function() {
 
 
     beforeEach(function(done){
-        loadFeed(3, function(){
+        loadFeed(1, function(){
             firstFeed= document.querySelector('div.feed').innerHTML;
             loadFeed(2, function(){
                 secondFeed = document.querySelector('div.feed').innerHTML;
